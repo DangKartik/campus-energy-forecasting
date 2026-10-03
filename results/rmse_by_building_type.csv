@@ -1,0 +1,9 @@
+type,rmse,mean_usage,rows
+Administration,2.6449,30.8112,516
+LectureHall,2.8218,42.0915,785
+Library,2.8629,45.0503,710
+Business,2.9343,42.8989,1354
+Residential,3.0004,47.4325,1197
+Engineering,3.0356,54.0782,1457
+Sports,3.2572,50.4532,558
+Science,3.5881,75.3767,1423

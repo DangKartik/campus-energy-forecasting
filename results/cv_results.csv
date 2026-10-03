@@ -1,0 +1,6 @@
+model,cv_rmse,test_like_cv_rmse
+Persistence (previous hour),6.3847,6.4532
+"Gradient boosting, raw columns",3.4432,4.0839
+"Structural Ridge, median imputation",3.1464,3.5801
+Structural Ridge + boosted residual,3.0794,3.3392
+Structural Ridge (final),3.0777,3.3373

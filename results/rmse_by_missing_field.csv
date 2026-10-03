@@ -1,0 +1,6 @@
+rows,share,ridge_rmse,boosting_rmse
+all fields present,0.7679,3.0142,3.3282
+temperature missing,0.0833,4.1471,5.8575
+humidity missing,0.0775,3.7641,4.7578
+occupancy missing,0.0825,4.9409,7.3897
+previous usage missing,0.0817,5.1533,7.8506

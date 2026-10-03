@@ -1,0 +1,63 @@
+{
+  "folds": 5,
+  "test_like_masks_per_fold": 3,
+  "training_rows": 8000,
+  "models": {
+    "Persistence (previous hour)": {
+      "cv_rmse": 6.3847,
+      "test_like_cv_rmse": 6.4532
+    },
+    "Gradient boosting, raw columns": {
+      "cv_rmse": 3.4432,
+      "test_like_cv_rmse": 4.0839
+    },
+    "Structural Ridge, median imputation": {
+      "cv_rmse": 3.1464,
+      "test_like_cv_rmse": 3.5801
+    },
+    "Structural Ridge + boosted residual": {
+      "cv_rmse": 3.0794,
+      "test_like_cv_rmse": 3.3392
+    },
+    "Structural Ridge (final)": {
+      "cv_rmse": 3.0777,
+      "test_like_cv_rmse": 3.3373
+    }
+  },
+  "ridge_alpha_sweep": {
+    "0.3": {
+      "cv_rmse": 3.0774,
+      "test_like_cv_rmse": 3.3376
+    },
+    "1": {
+      "cv_rmse": 3.077,
+      "test_like_cv_rmse": 3.3371
+    },
+    "3": {
+      "cv_rmse": 3.0777,
+      "test_like_cv_rmse": 3.3373
+    },
+    "10": {
+      "cv_rmse": 3.0893,
+      "test_like_cv_rmse": 3.3468
+    },
+    "30": {
+      "cv_rmse": 3.1318,
+      "test_like_cv_rmse": 3.384
+    }
+  },
+  "target_mean": 51.25,
+  "target_std": 18.45,
+  "train_missing_rate": {
+    "temperature": 0.0149,
+    "humidity": 0.0149,
+    "occupancy": 0.0152,
+    "previous_usage": 0.0143
+  },
+  "test_missing_rate": {
+    "temperature": 0.0703,
+    "humidity": 0.061,
+    "occupancy": 0.0687,
+    "previous_usage": 0.0677
+  }
+}
